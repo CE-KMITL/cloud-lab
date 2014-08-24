@@ -1,0 +1,11 @@
+{
+    "plugins": [
+        "autocover"
+    ],
+    "pluginsConfig": {
+        "autocover": {
+            "title": "CE KMITL Cloud Lab Manual",
+            "author": "Akkarit Sangpetch, Orathai Sangpetch"
+        }
+    }
+}
