@@ -8,4 +8,8 @@
        * [Create a VM](lab_1/use_portal_to_create_a_new_vm.md)
        * [Connect to the VM](lab_1/connect_to_the_vm.md)
    * [Endpoint Creation](lab_1/endpoint_creation.md)
+* [Lab 2](lab_2/README.md)
+   * [User Management](lab_2/user_management.md)
+   * [Adding ESXi host](lab_2/adding_esxi_host.md)
+   * [VM Creation](lab_2/vm_creation.md)
 
