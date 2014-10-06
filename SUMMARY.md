@@ -12,4 +12,6 @@
    * [User Management](lab_2/user_management.md)
    * [Adding ESXi host](lab_2/adding_esxi_host.md)
    * [VM Creation](lab_2/vm_creation.md)
-
+* [Lab 3](lab_3/README.md)
+   * [Basic PowerShell](lab_3/powershell.md)
+   * [Infrastructure Management](lab_3/infra.md)
