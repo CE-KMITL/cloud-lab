@@ -53,10 +53,28 @@ PowerCLI HKLM:\Software\Microsoft\Windows NT> Get-ChildItem CurrentVersion | Out
 
 ## PowerShell Object
 เราสามารถสร้าง Custom Object ใน PowerShell ได้จากการใช้ Hash table
+```
 $dict = @{title = 'title'; author = 'author'}
 New-Object -TypeName PSObject -Property $dict
+```
 
 ## Array
+```
 $myArray = @(1,2,3,4)
 $myArray += 5
-Out-Host $myArray[2]
+$myArray[2]
+```
+
+## For Loops / For Each
+```
+$array = @(1,2,3,4)
+for ($i=0; $i -lt $array.length; $i++) {
+  $array[$i]
+}
+foreach ($element in $array) {
+  $element
+}
+$array | foreach {
+  $_
+}
+```
