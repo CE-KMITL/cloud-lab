@@ -9,6 +9,12 @@ Get-Help <คำสั่ง PowerCLI> -examples
 Get-Help <คำสั่ง PowerCLI> -online
 ```
 1. ทดลองจัดเก็บรหัสผ่านโดยใช้ `New-VICredentialStoreItem` และ `Get-VICredentialStoreItem`
+   * สังเกตว่าชนิดของข้อมูลที่ได้จาก Get-VICredentialStoreItem เป็นชนิดใด (ดูชนิดจากการเรียกใช้ method `getType()`)
+   * ให้สร้าง *PSCredential* Object จาก Object ที่คุณสร้างขึ้น
+   ```
+   $securePassword = ConvertTo-SecureString "PlainPassword" -AsPlainText -Force
+   $creds = New-Object System.Management.Automation.PSCredential("username",$securePassword)
+   ```
 2. ให้นักศึกษาทดลองเชื่อมต่อกับ ESXi โดยใช้ `Connect-VIServer <vCenter IP>`
    หลังจากเชื่อมต่อแล้วนักศึกษาสามารถใช้ `vi:` หรือ `vmstore:` เพื่อใช้ตรวจดู Inventory หรือ datastore ได้
 3. ทดลองเพิ่ม Host เข้าไปใน vCenter โดยใช้ `Add-VMHost`

@@ -50,3 +50,13 @@ PowerCLI HKLM:\Software\Microsoft\Windows NT> Get-ChildItem CurrentVersion | Out
 8. หลาย ๆ คำสั่งที่เราเคยใช้ใน cmd ยังสามารถใช้ได้อยู่เนื่องจากคำสั่งเหล่านี้ถูกเปลี่ยนให้เป็น PowerShell Cmdlet ส
 มารถตรวจคำสั่งได้โดยใช้ alias เช่น `alias cd` จะแจ้งว่า `cd` เป็นคำสั่งเดียวกับ `Set-Location`
 9. ถ้ามีปัญหาสงสัยในการใช้งาน PowerShell มี built-in help โดยใช้ `Get-Help` เช่น `Get-Help Set-Location`
+
+## PowerShell Object
+เราสามารถสร้าง Custom Object ใน PowerShell ได้จากการใช้ Hash table
+$dict = @{title = 'title'; author = 'author'}
+New-Object -TypeName PSObject -Property $dict
+
+## Array
+$myArray = @(1,2,3,4)
+$myArray += 5
+Out-Host $myArray[2]
