@@ -27,7 +27,7 @@ Get-Help <คำสั่ง PowerCLI> -online
 หลังจากทดลองใช้แล้วให้นักศึกษาสร้างไฟล์ `lab3.ps1` (PowerShell script จะมี extension เป็น .ps1)
 โดยในไฟล์นี้ประกอบด้วยสคริปที่สามารถต่อเข้าไปใน vCenter Server (โดยไม่ต้องมี Prompt ให้ใส่ Username/Password)
 และแสดงรายชื่อของ Host ที่ต่ออยู่กับ vCenter Server เรียงตามชื่อ (name) ของ host
-พร้อมทั้งแสดงขนาดของหน่วยความจำทั้งหมดสำหรับแต่ละ Host (MemoryTotalMB)
+พร้อมทั้งแสดงขนาดของหน่วยความจำทั้งหมดสำหรับแต่ละ Host (MemoryTotalGB)
 ให้ลองรันสคริปโดยเรียก
 ```
 PowerCLI C:\Users\Student> .\lab3.ps1
