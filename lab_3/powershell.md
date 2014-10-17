@@ -52,7 +52,7 @@ PowerCLI HKLM:\Software\Microsoft\Windows NT> Get-ChildItem CurrentVersion | Out
 9. ถ้ามีปัญหาสงสัยในการใช้งาน PowerShell มี built-in help โดยใช้ `Get-Help` เช่น `Get-Help Set-Location`
 
 ## PowerShell Object
-เราสามารถสร้าง Custom Object ใน PowerShell ได้จากการใช้ Hash table
+เราสามารถสร้าง Custom Object (*PSObject*) ใน PowerShell ได้จากการใช้ Hash table
 ```
 $dict = @{title = 'title'; author = 'author'}
 New-Object -TypeName PSObject -Property $dict
