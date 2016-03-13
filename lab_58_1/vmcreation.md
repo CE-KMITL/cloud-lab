@@ -1,7 +1,5 @@
 # VM Creation
 
-# VM Creation
-
 ในขั้นตอนสุดท้าย เราจะสร้าง Tiny Core Linux VM เพื่อยืนยันว่าเราสามารถสร้าง VM ผ่าน vCenter ได้จริง
 
 ## Create a tiny VM
@@ -19,7 +17,7 @@
  * Hard disk 1 GB
  * CD/DVD Drive
     * Datastore ISO File
-    * ใช้ Media `[ds2-cloudlab] iso/TinyCore-current.iso`
+    * ใช้ Media `[datastore-708-1] iso/TinyCore-current.iso` หรือ iso อื่น
     * เลือก Connect At Power On
 ![Edit Hardware](http://goo.gl/z5NGrD)
 9. เลือก Finish เพื่อสร้าง VM
