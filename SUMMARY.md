@@ -3,7 +3,7 @@
 * [Introduction](README.md)
 * [Lab 58](lab_58.md)
    * [Infra Lab 1](lab_58_1/readme58_1.md)
-       * [User Management](lab_58_1/usermanagement.md)
+       * [User Management](lab_58_1/usermanagementmd.md)
        * [Adding ESXi host](lab_58_1/addingesxi_host.md)
        * [VM Creation](lab_58_1/vm_creation.md)
 * Lab 57

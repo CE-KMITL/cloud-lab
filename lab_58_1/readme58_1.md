@@ -1,4 +1,4 @@
-# Infra Lab 1
+# Infrastructure Lab 1
 
 ใน Lab นี้เราจะศึกษาการใช้งาน VMware vSphere เพื่อบริหารจัดการ Virtual Infrastructure ผ่าน VMware vCenter เริ่มตั้งแต่การจัดการผู้ใช้ การเพิ่ม ESXi Hypervisor และการสร้าง Virtual Machine เบื้องต้น
 
