@@ -20,7 +20,7 @@
 
 ### Create SSO User
 ในขั้นตอนนี้เราจะเพิ่ม SSO user สำหรับ Log-in เข้าใช้ vSphere Web Client
-1. เปิด Web browser เพื่อเข้าใช้งาน vSphere Webclient ผ่าน URL https://161.246.70.219:9443/vsphere-client/ โดย Login ด้วย **sso@vsphere.local**
+1. เปิด Web browser เพื่อเข้าใช้งาน vSphere Webclient ผ่าน URL https://vcsa.soup.ce.kmitl.ac.th:9443/vsphere-client/ โดย Login ด้วย **sso@vsphere.local**
 2. จาก Navigation Panel ทางด้านซ้าย เลือก Administration -> Single Sign-On -> Users and Groups ![SSO Administration](http://goo.gl/t1pUUu)
 3. จาก Users tab กด `+` เพื่อสร้าง account ใหม่ ![Create user](http://goo.gl/MXBDBG)
 4. สร้าง Account ใหม่สำหรับคุณโดยกรอก Username ตามต้องการ พร้อมทั้งกรอก **First name, Last name, Email address** เป็นภาษาอังกฤษ
