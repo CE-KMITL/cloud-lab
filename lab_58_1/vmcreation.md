@@ -11,8 +11,8 @@
 3. ใส่ชื่อ VM เป็น tiny-yourname เลือก Folder เป็น `vCenterCE708 / DCLab708 / CloudLab`
 ![Select VM Folder](http://goo.gl/fOJNDw)
 4. เลือก ESXi ของคุณเพื่อใช้เป็น Compute Resource
-5. เลือก ds2-cloudlab เป็น Storage
-6. เลือก Compatible with ESXi 5.1
+5. เลือก datastore-708-1 หรือ 2 เป็น Storage
+6. เลือก Compatible with ESXi 6
 7. เลือก Linux, Other Linux (32 bit)
 8. ให้แก้ไข Hardware ที่ใช้
  * Memory 256 MB
