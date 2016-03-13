@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* [Lab 59](lab_59.md)
+* [Lab 58](lab_58.md)
    * [Infra Lab 1](lab_59_1/readme59_1.md)
        * [User Management](lab_59_1/usermanagement.md)
        * [Adding ESXi host](lab_59_1/addingesxi_host.md)
