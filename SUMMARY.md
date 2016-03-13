@@ -2,10 +2,10 @@
 
 * [Introduction](README.md)
 * [Lab 58](lab_58.md)
-   * [Infra Lab 1](lab_59_1/readme59_1.md)
-       * [User Management](lab_59_1/usermanagement.md)
-       * [Adding ESXi host](lab_59_1/addingesxi_host.md)
-       * [VM Creation](lab_59_1/vm_creation.md)
+   * [Infra Lab 1](lab_58_1/readme58_1.md)
+       * [User Management](lab_58_1/usermanagement.md)
+       * [Adding ESXi host](lab_58_1/addingesxi_host.md)
+       * [VM Creation](lab_58_1/vm_creation.md)
 * Lab 57
    * [Lab 1](lab_1/README.md)
        * [Azure Portal](lab_1/azure_portal.md)
