@@ -17,7 +17,7 @@
  * Hard disk 1 GB
  * CD/DVD Drive
     * Datastore ISO File
-    * ใช้ Media `[datastore-708-1] iso/TinyCore-current.iso` หรือ iso อื่น
+    * ใช้ Media `[datastore-708-1] iso/tahr64-6.0.5.iso` หรือ iso อื่น
     * เลือก Connect At Power On
 ![Edit Hardware](http://goo.gl/z5NGrD)
 9. เลือก Finish เพื่อสร้าง VM
@@ -29,3 +29,4 @@
  * ในกรณีที่เมาส์ติดอยู่บน Console ใช้ปุ่ม Ctrl-Alt เพื่อออกจากหน้าจอของ Console
 ![Open Console](http://goo.gl/x2bpQv)
 3. ภายใน Console ของ VM คลิกขวาเพื่อเลือก Applications->Terminal แล้วรันคำสั่ง `uname -a` เพื่อดู version ของ Linux Kernel ที่คุณใช้
+4. ให้ส่ง Screenshot ของหน้า vSphere ในข้อ 3. ใน Infrastructure Lab 1 (ที่มี thumbnail ของ VM Console) เพื่อแสดงว่านศ.ได้ทำ lab นี้เสร็จแล้ว
