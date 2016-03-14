@@ -6,7 +6,7 @@
 1. คลิกขวาที่ Host ของคุณแล้วเลือก New Virtual Machine...
 ![New VM](http://goo.gl/206e0S)
 2. เลือก Create a new virtual machine
-3. ใส่ชื่อ VM เป็น tiny-yourname เลือก Folder เป็น `vCenterCE708 / DCLab708 / CloudLab`
+3. ใส่ชื่อ VM เป็น tiny-yourname เลือก Folder เป็น `vcsa.soup.ce.kmitl.ac.th / CE-Datacenter / CloudLab`
 ![Select VM Folder](http://goo.gl/fOJNDw)
 4. เลือก ESXi ของคุณเพื่อใช้เป็น Compute Resource
 5. เลือก datastore-708-1 หรือ 2 เป็น Storage
