@@ -5,6 +5,7 @@
    * [Infra Lab 1](lab_58_1/readme58_1.md)
        * [User Management](lab_58_1/usermanagementmd.md)
        * [VM Creation](lab_58_1/vmcreation.md)
+   * [Infra Lab 2](lab_58_2/readme58_2.md)
 * Lab 57
    * [Lab 1](lab_1/README.md)
        * [Azure Portal](lab_1/azure_portal.md)
