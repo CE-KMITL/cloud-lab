@@ -18,12 +18,9 @@ Get-Help <คำสั่ง PowerCLI> -online
    ```
 2. ให้นักศึกษาทดลองเชื่อมต่อกับ ESXi โดยใช้ `Connect-VIServer <vCenter IP>`
    หลังจากเชื่อมต่อแล้วนักศึกษาสามารถใช้ `vi:` หรือ `vmstore:` เพื่อใช้ตรวจดู Inventory หรือ datastore ได้
-3. ทดลองเพิ่ม Host เข้าไปใน vCenter โดยใช้ `Add-VMHost`
-4. ตรวจดูสถานะของ Host ด้วย `Get-VMHost` จากนั้นให้ตรวจดู Properties ของ VMHost
-5. ตรวจดูสถานะของ VM ด้วย `Get-VM`
-6. ตรวจดูสถานะของ Account ที่อยู่บน Host ด้วย `Get-VMHostAccount`
-7. ตรวจดูสถานะของ iSCSI ด้วย `Get-VMHostStorage` (สามารถใช้ `Set-VMHostStorage` เพื่อสร้าง iSCSI Adapter ได้)
-8. ทดลองใช้ Export-CSV เพื่อจัดเก็บผลลัพธ์
+3. ตรวจดูสถานะของ Host ด้วย `Get-VMHost` จากนั้นให้ตรวจดู Properties ของ VMHost
+4. ตรวจดูสถานะของ VM ด้วย `Get-VM`
+6. ทดลองใช้ Export-CSV เพื่อจัดเก็บผลลัพธ์
 
 หลังจากทดลองใช้แล้วให้นักศึกษาสร้างไฟล์ `lab2.ps1` (PowerShell script จะมี extension เป็น .ps1)
 โดยในไฟล์นี้ประกอบด้วยสคริปต์ที่สามารถต่อเข้าไปใน vCenter Server (โดยไม่ต้องมี Prompt ให้ใส่ Username/Password)
