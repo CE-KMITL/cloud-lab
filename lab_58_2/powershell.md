@@ -3,7 +3,7 @@
 ในส่วนนี้ เราจะทดลองศึกษาการใช้งาน PowerShell เบื้องต้นเพื่อควบคุมระบบคอมพิวเตอร์
 
 ## เตรียมการใช้งาน PowerCLI
-1. เรียกใช้โปรแกรม PowerCLI
+1. เรียกใช้โปรแกรม PowerCLI (ให้เลือก Run as Administrator ในการเรียกใช้งานครั้งแรก)
 2. เนื่องจาก PowerCLI จำเป็นต้องเพิ่มคำสั่งหรือ CmdLet ให้กับ PowerShell ดังนั้นนักศึกษาต้องตั้งค่า
 Execution Policy เป็น RemoteSigned เพื่อให้ PowerCLI สามารถทำงานได้
 `Set-ExecutionPolicy RemoteSigned`
