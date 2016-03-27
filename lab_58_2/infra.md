@@ -25,17 +25,17 @@ Get-Help <คำสั่ง PowerCLI> -online
 7. ตรวจดูสถานะของ iSCSI ด้วย `Get-VMHostStorage` (สามารถใช้ `Set-VMHostStorage` เพื่อสร้าง iSCSI Adapter ได้)
 8. ทดลองใช้ Export-CSV เพื่อจัดเก็บผลลัพธ์
 
-หลังจากทดลองใช้แล้วให้นักศึกษาสร้างไฟล์ `lab3.ps1` (PowerShell script จะมี extension เป็น .ps1)
-โดยในไฟล์นี้ประกอบด้วยสคริปที่สามารถต่อเข้าไปใน vCenter Server (โดยไม่ต้องมี Prompt ให้ใส่ Username/Password)
+หลังจากทดลองใช้แล้วให้นักศึกษาสร้างไฟล์ `lab2.ps1` (PowerShell script จะมี extension เป็น .ps1)
+โดยในไฟล์นี้ประกอบด้วยสคริปต์ที่สามารถต่อเข้าไปใน vCenter Server (โดยไม่ต้องมี Prompt ให้ใส่ Username/Password)
 และแสดงรายชื่อของ Host ที่ต่ออยู่กับ vCenter Server เรียงตามชื่อ (name) ของ host
 พร้อมทั้งแสดงขนาดของหน่วยความจำทั้งหมดสำหรับแต่ละ Host (MemoryTotalGB)
 ให้ลองรันสคริปโดยเรียก
 ```
-PowerCLI C:\Users\Student> .\lab3.ps1
+PowerCLI C:\Users\Student> .\lab2.ps1
 ```
 หรือใช้
 ```
-PowerCLI C:\Users\Student> & “C:\your directory\lab3.ps1”
+PowerCLI C:\Users\Student> & “C:\your directory\lab2.ps1”
 ```
 ตัวอย่างผลลัพธ์
 ```
