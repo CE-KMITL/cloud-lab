@@ -6,6 +6,9 @@
        * [User Management](lab_58_1/usermanagementmd.md)
        * [VM Creation](lab_58_1/vmcreation.md)
    * [Infra Lab 2](lab_58_2/readme582.md)
+       * [Basic PowerShell](lab_58_2/powershell.md)
+       * [Infrastructure Management](lab_58_2/infra.md)
+
 * Lab 57
    * [Lab 1](lab_1/README.md)
        * [Azure Portal](lab_1/azure_portal.md)
