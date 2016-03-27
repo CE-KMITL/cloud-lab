@@ -32,8 +32,9 @@ Get-Help <คำสั่ง PowerCLI> -online
    ```
    Get-VM cli-username | Format-List
    ```
-3. ใช้คำสั่ง `New-CDDrive` เพื่อ mount iso/tahr64-6.0.5.iso ให้กับ VM ที่สร้างขึ้น
-4. ใช้คำสั่ง `Start-VM` เพื่อเปิด VM ดังกล่าว
+3. ใช้คำสั่ง `Move-VM` เพื่อย้าย VMHost ไปอีกเครื่อง
+4. ใช้คำสั่ง `New-CDDrive`, `Get-CDDrive`, `Set-CDDrive`เพื่อสร้างไดรฟ์ CD-Rom และโหลด `iso/tahr64-6.0.5.iso` ให้กับ VM ที่สร้างขึ้นขณะบูท (Hint: ตั้ง option StartConnected ของ VM ให้เป็น 1)
+5. ใช้คำสั่ง `Start-VM` เพื่อเปิด VM ดังกล่าว ตรวจสอบว่า VM สามารถ boot ได้ถูกต้องหรือไม่
 
 ## Task
 หลังจากทดลองใช้แล้วให้นักศึกษาสร้างไฟล์ `lab2.ps1` (PowerShell script จะมี extension เป็น .ps1)
